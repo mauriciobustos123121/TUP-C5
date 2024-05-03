@@ -1,5 +1,4 @@
-const App = () =>  (
-  const = [
+const Contactos = [
     {
      id:0,
      Nombre:Mauricio,
@@ -36,7 +35,14 @@ const App = () =>  (
      Apellido:Sanvitale,
      Telefono:3814653218
     }
-  ]
+  ];
+const Contacto =  ({nombre,apellido,telefono}) =>
+
+
+const App = () =>  (
+  <div>
+  <h1> Agenda</h1>
+  </div>
 )
 
 ReactDOM.render(<App />, document.getElementById('root'))
